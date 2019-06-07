@@ -1,4 +1,4 @@
-print("Bienvenido a la pizzeria")
+print("Bienvenido a Picasso Pizzería")
 pizzas = ["Pizza de peperoni", "Pizza cuatro estaciones", "Pizza borde rellenos", "Pizza hawaiana", "Pizza cuatro quesos", "Pizza de jamon y peperoni"]
 
 def imprimir_menu():
