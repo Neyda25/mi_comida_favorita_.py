@@ -45,7 +45,7 @@ def eliminar_pedidos():
 def almacenar():
 	f = open("pedidos.txt", "w+")
 	for pedido in pedidos:
-		f.write(pedido)
+		f.write("{0} \n".format(pedido))
 
 continuar = True
 
@@ -59,6 +59,8 @@ while continuar:
 		mostrar_pedidos()
 	elif accion == 4:
 		eliminar_pedidos()
+	elif accion == 0:
+		almacenar()
 	elif accion == 5:
 		continuar = False
 	else:
